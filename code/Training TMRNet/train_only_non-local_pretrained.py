@@ -20,7 +20,7 @@ import random
 import numbers
 from torch.utils.tensorboard import SummaryWriter
 from sklearn import metrics
-from NLBlock import NLBlock
+from NLBlock_MutiConv6_3 import NLBlock
 
 parser = argparse.ArgumentParser(description='lstm training')
 parser.add_argument('-g', '--gpu', default=True, type=bool, help='gpu use, default True')
